@@ -6,7 +6,7 @@ Summary:	Older version of the CELT ultra-low delay audio codec
 Name:		celt07
 Version:	0.7.1
 Release:	1
-Source0:	http://downloads.us.xiph.org/releases/celt/%{name}-%{version}.tar.gz
+Source0:	http://downloads.us.xiph.org/releases/celt/celt-%{version}.tar.gz
 License:	BSD
 Group:		Sound
 Url:		http://www.celt-codec.org/
@@ -33,7 +33,7 @@ can't play back or convert streams created with the older version,
 this version should be available for some time.
 
 %prep
-%setup -q
+%setup -q -n celt-%version
 
 %build
 %configure2_5x
