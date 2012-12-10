@@ -55,3 +55,10 @@ make check
 %files -n %{libname}
 %doc README COPYING
 %{_libdir}/libcelt0.so.%{major}*
+
+
+%changelog
+* Wed Mar 07 2012 Bernhard Rosenkraenzer <bero@bero.eu> 0.7.1-1
++ Revision: 782952
+- import celt07
+
