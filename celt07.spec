@@ -36,7 +36,7 @@ this version should be available for some time.
 %setup -q -n celt-%version
 
 %build
-sh autogen.sh -V
+autoreconf -ivf
 %configure2_5x
 %make
 
