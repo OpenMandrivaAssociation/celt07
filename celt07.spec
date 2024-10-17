@@ -9,7 +9,7 @@ Release:	2
 Source0:	http://downloads.us.xiph.org/releases/celt/celt-%{version}.tar.gz
 License:	BSD
 Group:		Sound
-Url:		http://www.celt-codec.org/
+Url:		https://www.celt-codec.org/
 BuildRequires:	libogg-devel
 
 %description
